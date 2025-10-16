@@ -1,0 +1,33 @@
+/* Asterisk wildcard selector to override default styles added by the browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*header section*/
+header {
+    background-color: #0e67c0;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+ /*body section*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f6f4f4;
+    color: #333333;
+}
+
+/*footer section*/
+footer {
+    background-color: #f0f3f0;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #777777;
+}
