@@ -70,7 +70,7 @@ nav {
 }
 
 /*nav toggle*/
-#nav-toggle:checked + nav {
+#nav-toggle:checked~nav {
     display: block;
 }
 
