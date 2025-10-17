@@ -22,13 +22,14 @@ body {
 header {
     background-color: #0e67c0;
     padding: 20px;
-    text-align: center;
-    font-size: 24px;
+    text-align: left;
+    font-size: 16px;
     font-weight: bold;
 }
 
     h1 {
         font-family: 'Oswald', sans-serif;
+        font-size: 24px;
     }
 
  /*main section*/
