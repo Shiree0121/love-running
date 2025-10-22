@@ -43,9 +43,13 @@
       <a href="index.html">
         <h1 id="logo">Love Running</h1>
       </a>
-      <input type="checkbox" id="menu-toggle" name="nav-toggle" />
-      <label for="nav-toggle" class="nav-toggle-label">X</label>
-      <nav>
+      <input type="checkbox" id="nav-toggle" name="nav-toggle" aria-label="Toggle navigation" title="Toggle navigation" />
+      <label for="nav-toggle" class="nav-toggle-label">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+        <span class="visually-hidden">Toggle navigation</span>
+      </label>
+      
+       <nav>
         <ul id="menu">
           <li><a href="" class="active">Home</a></li>
           <li><a href="">Gallery</a></li>
@@ -58,28 +62,65 @@
     <main>Main Body</main>
 
     <!--licenece's extra information and terms and conditions-->
-    <footer>
-      <ul>
-        <li>
-          <a
-            href="https://www.facebook.com/" target="_blank" rell="noopener" aria-label="visit our Facebook page (open in new tab)" >Facebook</a></li>
+<footer>
+  <ul>
+    <li>
+      <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+        aria-label="Visit our Facebook page (opens in new tab)">
+        <i class="fa-brands fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a href="https://www.twitter.com/" target="_blank" rel="noopener"
+        aria-label="Visit our Twitter page (opens in new tab)">
+        <i class="fa-brands fa-twitter-square"></i>
+      </a>
+    </li>
+    <li>
+      <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+        aria-label="Visit our Instagram page (opens in new tab)">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+    </li>
+    <li>
+      <a href="https://www.youtube.com/" target="_blank" rel="noopener"
+        aria-label="Visit our YouTube page (opens in new tab)">
+        <i class="fa-brands fa-youtube"></i>
+      </a>
+    </li>
+  </ul>
 
-        <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
-      </ul>
+        <p>&copy; 2024 Love Running. All rights reserved.</p>
     </footer>
 
     <!-- Font Awesome social icons -->
     <div class="social-icons" role="group" aria-label="Social links">
-        <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Facebook">
-            <i class="fab fa-facebook-f" aria-hidden="true"></i>
-        </a>
-        <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Instagram">
-            <i class="fab fa-instagram" aria-hidden="true"></i>
-        </a>
-        <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Twitter">
-            <i class="fab fa-twitter" aria-hidden="true"></i>
-        </a>
+      <a
+        href="https://www.facebook.com"
+        target="_blank"
+        rel="noopener"
+        aria-label="Facebook">
+        <i class="fab fa-facebook-f" aria-hidden="true"></i>
+    </a>
+      <a
+        href="https://www.instagram.com"
+        target="_blank"
+        rel="noopener"
+        aria-label="Instagram">
+        <i class="fab fa-instagram" aria-hidden="true"></i>
+      </a>
+      <a
+        href="https://twitter.com"
+        target="_blank"
+        rel="noopener"
+        aria-label="Twitter"
+      >
+        <i class="fab fa-twitter" aria-hidden="true"></i>
+      </a>
     </div>
-    <script src="https://kit.fontawesome.com/6963b1e019.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/6963b1e019.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
