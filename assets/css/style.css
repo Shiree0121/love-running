@@ -91,12 +91,18 @@ main {
 }
 
 /*footer section*/
-footer {
-    background-color: #f0f3f0;
-    padding: 10px;
+#social-networks {
+    justify-content: space-evenly;
+    padding: 20px;
     text-align: center;
-    font-size: 14px;
-    color: #777777;
+    display: flex;
+    list-style: none;
+}
+
+#social-networks i {
+    color: #3a3a3a;
+    font-size: 160%;
+    padding: 5%;
 }
 
 /*media query for tablets and larger devices (shows whole screen on diffferent devices (768px and up)*/
