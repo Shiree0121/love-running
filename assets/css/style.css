@@ -18,6 +18,13 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+h1, h2, h3 {
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: #252525;
+    }
+
 /*header section*/
 header {
     background-color: white;
@@ -36,12 +43,6 @@ header a {
     color: inherit;
 }
 
-    h1 {
-        font-family: 'Oswald', sans-serif;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        color: #252525;
-    }
 
   #menu {
     font-size: 110%;
@@ -82,12 +83,20 @@ nav {
     font-size: 2rem;   
 }
 
+
  /*main content*/
 main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
 }
+
+/* hero */
+#cover-text {
+    width: 100px;
+    right: 50px;
+}
+
 
 /*hero section sytling*/
 #hero {
@@ -99,6 +108,23 @@ main {
     width: 100%;
     text-align: center;
     padding: 100px 20px;
+    position: relative;
+}
+
+/*heading for love running and location*/
+#cover-text {
+    background-color: pink;
+    font-size: 110%;
+    position: absolute;
+    bottom: 30px;
+    width: 50%;
+    min-width: 200px;
+    padding-top: 0%;
+    padding-left: 0%;
+}
+
+#cover-text > h2, #cover-text > h3 {
+    color: #ffffff;
 }
 
 /*footer section*/
