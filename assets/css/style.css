@@ -84,10 +84,21 @@ nav {
 
  /*main content*/
 main {
-    background-color: lightblue;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
+}
+
+/*hero section sytling*/
+#hero {
+    background-image: url('../images/hero-image.webp');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    padding: 100px 20px;
 }
 
 /*footer section*/
