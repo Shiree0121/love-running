@@ -190,7 +190,7 @@ main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 10px;
-  line-height: 0; /* keeps spacing clean between images */
+  line-height: 1em; /* keeps spacing clean between images */
 }
 
 #photos img {
