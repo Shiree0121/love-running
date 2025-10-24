@@ -16,17 +16,31 @@
 
     <!--favicon icon of browser-->
     <link
-      rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png"/>
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon/apple-touch-icon.png"
+    />
     <link
-      rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png"/>
-    <link rel="icon" type="image/png" sizes="16x16"
-      href="assets/favicon/favicon-16x16.png"/>
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon/favicon-16x16.png"
+    />
 
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/style.css" />
-  <!-- Font Awesome for icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">  
-</head>
+    <!-- Font Awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
 
   <body>
     <!-- Header -->
@@ -35,13 +49,19 @@
         <h1 id="logo">Love Running</h1>
       </a>
 
-      <input type="checkbox" id="nav-toggle" name="nav-toggle" aria-label="Toggle navigation" title="Toggle navigation" />
+      <input
+        type="checkbox"
+        id="nav-toggle"
+        name="nav-toggle"
+        aria-label="Toggle navigation"
+        title="Toggle navigation"
+      />
       <label for="nav-toggle" class="nav-toggle-label">
         <i class="fa fa-bars" aria-hidden="true"></i>
         <span class="visually-hidden"></span>
       </label>
-      
-       <nav>
+
+      <nav>
         <ul id="menu">
           <li><a href="home.html" class="active">Home</a></li>
           <li><a href="gallery.html">Gallery</a></li>
@@ -52,73 +72,152 @@
 
     <!--the main body of the website would go-->
     <main>
-        <section id="hero">
-            <div id="cover-text">
-             <h2>Love Running</h2>
-             <h3>Birmingham, West-midlands </h3>
+      <section id="hero">
+        <div id="cover-text">
+          <h2>Love Running</h2>
+          <h3>Birmingham, West-midlands</h3>
+        </div>
+      </section>
+
+      <!--the main body of the website would go-->
+      <section id="reasons">
+        <h2>Why love running with us?</h2>
+        <div id="benefits">
+          <div id="benefits-physical">
+            <div>
+              <h3>Feel healthy <i class="fa-solid fa-heart-pulse"></i></h3>
+              <hr />
+              <p>
+                Since it improves aerobic fitness, running is a great way to
+                help improve your cardiovascular health. Plus, it burns calories
+                and can build strength.
+              </p>
             </div>
-        </section>
+            <div>
+              <h3>Feel strong <i class="fa-solid fa-dumbbell"></i></h3>
+              <hr />
+              <p>
+                Running strengthens your heart by pumping blood more effectively
+                through your body.
+              </p>
+            </div>
+          </div>
+          <div id="benefits-mental">
+            <div>
+              <h3>Feel free <i class="fa-brands fa-fly"></i></h3>
+              <hr />
+              <p>
+                Physical exercise, running included, is known to release
+                endorphins in the brain. Endorphins make you more energetic,
+                more awake and, yes, happier.
+              </p>
+            </div>
+            <div>
+              <h3>Get social <i class="fa-solid fa-globe"></i></h3>
+              <hr />
+              <p>
+                When we run with others, we can run farther and faster more
+                easily. Social running can pull you out of a running funk or low
+                mood, and inspire you to try new events.
+              </p>
+            </div>
+          </div>
+          <div id="benefits-image">
+            <div id="circle-cover-bg"></div>
+          </div>
+        </div>
+      </section>
 
- <!--the main body of the website would go-->
-<section id="reasons">
-  <h2>Why love running with us?</h2>
-
-  <div id="benefits">
-    <div id="benefits-physical">
-      <div>
-        
-        <h3>Feel healthy <i class="fa-solid fa-heart-pulse"></i></h3>
-        <hr>
-        <p>Since it improves aerobic fitness, running is a great way to help improve your cardiovascular
-          health. Plus, it burns calories and can build strength.</p>
-      </div>
-      <div>
-        <h3>Feel strong <i class="fa-solid fa-dumbbell"></i></h3>
-        <hr>
-        <p>Running strengthens your heart by pumping blood more effectively through your body.</p>
-      </div>
-    </div>
-
-    <div id="benefits-mental">
-      <div>
-        <h3>Feel free <i class="fa-brands fa-fly"></i></h3>
-        <hr>
-        <p>Physical exercise, running included, is known to release endorphins in the brain. Endorphins
-          make you more energetic, more awake and, yes, happier.</p>
-      </div>
-      <div>
-        <h3>Get social <i class="fa-solid fa-globe"></i></h3>
-        <hr>
-        <p>When we run with others, we can run farther and faster more easily. Social running can pull
-          you out of a running funk or low mood, and inspire you to try new events.</p>
-      </div>
-    </div>
-
-    <!-- ✅ Your final image box fits here -->
-    <div id="benefits-image">
-      <div id="circle-cover-bg">
-        <h3>Join Us Today! <i class="fa-solid fa-people-group"></i></h3>
-        <hr>
-        <p>Become a part of our vibrant running community in Birmingham. Whether you're a seasoned runner or just starting out, we welcome all levels. Sign up now to enjoy group runs, training tips, and exclusive events!</p>
-        <img src="assets/images/running-group.jpg" alt="Group of runners running together" />
-      </div>
-    </div>
-  </div>
-</section>
-        </main>
+      <!-- Meetup Times section -->
+      <section id="meetups">
+        <h2>Meet-up Times</h2>
+        <div id="times">
+          <div>
+            <h3>Urban <i class="fa-solid fa-city"></i></h3>
+            <p>Monday</p>
+            <p>5K</p>
+            <p>The Marker Hotel</p>
+            <p>18:30</p>
+          </div>
+          <div>
+            <h3>Trail <i class="fa-solid fa-tree"></i></h3>
+            <p>Wednesday</p>
+            <p>10K</p>
+            <p>The Phoenix Park</p>
+            <p>18:30</p>
+          </div>
+          <div>
+            <h3>Urban <i class="fa-solid fa-city"></i></h3>
+            <p>Friday</p>
+            <p>5K</p>
+            <p>The Marker Hotel</p>
+            <p>18:30</p>
+          </div>
+          <div>
+            <h3>Trail <i class="fa-solid fa-tree"></i></h3>
+            <p>Saturday</p>
+            <p>10K</p>
+            <p>The Phoenix Park</p>
+            <p>09:30</p>
+          </div>
+          <div>
+            <h3>Coffee <i class="fa-solid fa-mug-hot"></i></h3>
+            <p>Sunday</p>
+            <p>0K</p>
+            <p>The Marker Hotel</p>
+            <p>11:30</p>
+          </div>
+        </div>
+      </section>
+    </main>
     <!--licenece's extra information and terms and conditions-->
-<footer>
-   <ul id="social-networks">
-    <li><a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" title="Love Running on Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i><span class="visually-hidden"></span></a></li>
-    <li><a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" title="Love Running on Instagram"><i class="fab fa-instagram" aria-hidden="true"></i><span class="visually-hidden"></span></a></li>
-    <li><a href="https://twitter.com" target="_blank" rel="noopener noreferrer" title="Love Running on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i><span class="visually-hidden"></span></a></li>
-    <li><a href="https://youtube.com" target="_blank" rel="noopener noreferrer" title="Love Running on YouTube"><i class="fab fa-youtube" aria-hidden="true"></i><span class="visually-hidden"></span></a></li>
-  </ul>
-  <p>&copy; 2024 Love Running. All rights reserved.</p>
-</footer>
-<!-- Font Awesome -->  
-<script
-  src="https://kit.fontawesome.com/6963b1e019.js"
-  crossorigin="anonymous"></script>
-</body>
+    <footer>
+      <ul id="social-networks">
+        <li>
+          <a
+            href="https://www.facebook.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Love Running on Facebook"
+            ><i class="fab fa-facebook-f" aria-hidden="true"></i
+            ><span class="visually-hidden"></span></a></li><li>
+         
+        <a
+            href="https://www.instagram.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Love Running on Instagram"
+            ><i class="fab fa-instagram" aria-hidden="true"></i
+            ><span class="visually-hidden"></span
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://twitter.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Love Running on Twitter"
+            ><i class="fab fa-twitter" aria-hidden="true"></i
+            ><span class="visually-hidden"></span
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://youtube.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Love Running on YouTube"
+            ><i class="fab fa-youtube" aria-hidden="true"></i
+            ><span class="visually-hidden"></span
+          ></a>
+        </li>
+      </ul>
+      <p>&copy; 2024 Love Running. All rights reserved.</p>
+    </footer>
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/6963b1e019.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
